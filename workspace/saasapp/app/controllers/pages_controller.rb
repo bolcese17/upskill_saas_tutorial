@@ -4,4 +4,10 @@ class PagesController < ApplicationController
     
     def about
     end
+    
+    def past_work
+    end
+    
+    def achievements
+    end
 end
