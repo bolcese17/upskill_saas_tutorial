@@ -25,6 +25,8 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 // Background Gradient
 .navbar, .home-callout {
   background: #70e1f5;  /* fallback for old browsers */
@@ -36,6 +38,10 @@ h1, h2, h3 {
 
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family:'Pacifico', cursive;
 }
 
 
