@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     get 'past_work', to: 'pages#past_work'
     get 'achievements', to: 'pages#achievements'
     get 'resume' , to: 'pages#resume'
+    resources :contacts
 end
 
 Rails.application.routes.draw do
