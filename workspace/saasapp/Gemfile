@@ -37,6 +37,9 @@ gem 'font-awesome-sass', '4.6.2'
 # Use Social Share Button to add social media buttons 
 gem 'social-share-button' , '0.10.0'
 
+# Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
