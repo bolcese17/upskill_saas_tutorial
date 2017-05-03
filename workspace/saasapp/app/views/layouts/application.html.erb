@@ -8,7 +8,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+  
   <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class='container'>
@@ -29,11 +29,24 @@
             <li><%= link_to "Past Work", past_work_path %></a></li>
             <li><%= link_to "Achievements", achievements_path %></li>
             <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Resume", resume_path %></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <%= link_to "https://www.instagram.com/brendan_olcese/" , class: "navbar-brand" do %>
+                  <i class="fa fa-instagram"></i>
+                  <% end %>
+                <%= link_to "https://twitter.com/brandon_olsece?lang=en" , class: "navbar-brand" do %>
+                  <i class="fa fa-twitter"></i>
+                  <% end %>
+                <%= link_to "https://github.com/bolcese17" , class: "navbar-brand" do %>
+                  <i class="fa fa-github"></i>
+                  <% end %>
+            </ul>
+            
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-    
+
 
     <%= yield %>
     </div>

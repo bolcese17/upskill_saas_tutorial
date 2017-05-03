@@ -10,4 +10,8 @@ class PagesController < ApplicationController
     
     def achievements
     end
+    
+    def resume
+    end
+    
 end
