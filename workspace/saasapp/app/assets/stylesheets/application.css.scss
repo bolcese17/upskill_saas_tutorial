@@ -14,6 +14,8 @@
  *= require_tree .
  *= require social-share-button
  *= require_self
+ *= require owl.carousel
+ *= require owl.theme
  */
 
 @import 'bootstrap-sprockets';
@@ -68,9 +70,29 @@ h1, h2, h3 {
 body {
   background: linear-gradient(to right, #ffd194, #70e1f5) fixed;
 }
-
-#footer{
- position:fixed;
- bottom:0;
- left:0;
+* {
+    margin: 0;
 }
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+    padding: 4cm;
+}
+
+#owl-example{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+#home-text{
+  padding-top: 50px;
+}
+  
