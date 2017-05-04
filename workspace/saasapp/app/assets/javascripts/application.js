@@ -23,22 +23,35 @@
         var owl;
 $(document).ready(function(){
   owl = $('#owl-example').owlCarousel({
-    autoplay: true,
-    autoplaySpeed: 10000,
+    
     loop: true,
-    autoHeight:true,
-    autoWidth: false,
-    navSpeed: 300,
+    autoplay:true,
+    autoplaySpeed: 5000,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+
+    nav: true,
     items: 3,
     margin: 100,
-    items : 4,
-    itemsDesktop : [1199,3],
-    itemsDesktopSmall : [979,3]
+   responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1500:{
+            items:4
+        }
+    }
+
   });
   owl.on('changed.owl.carousel', function(e) {
     console.log("test");
   });
 });
+
+
 
 
  

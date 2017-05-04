@@ -63,6 +63,8 @@ h1, h2, h3 {
 .home-callout {
   color: black;
   margin-top: -20px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -101,15 +103,3 @@ body {
   padding: 0;
 }
 
-.owl-carousel .item {
-  height: 120px;
-  background: #4DC7A0;
-  padding: 1rem;
-  list-style: none;
-  margin: 10px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  line-height: 120px;
-}
-  
