@@ -95,4 +95,21 @@ html, body {
 #home-text{
   padding-top: 50px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.owl-carousel .item {
+  height: 120px;
+  background: #4DC7A0;
+  padding: 1rem;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 120px;
+}
   

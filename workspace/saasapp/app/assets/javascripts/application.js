@@ -17,3 +17,32 @@
 //= require_tree .
 //= require owl.carousel
 
+
+        
+        
+        var owl;
+$(document).ready(function(){
+  owl = $('#owl-example').owlCarousel({
+    autoplay: true,
+    autoplaySpeed: 10000,
+    loop: true,
+    autoHeight:true,
+    autoWidth: false,
+    navSpeed: 300,
+    items: 3,
+    margin: 100,
+    items : 4,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,3]
+  });
+  owl.on('changed.owl.carousel', function(e) {
+    console.log("test");
+  });
+});
+
+
+ 
+     
+ 
+     
+    
