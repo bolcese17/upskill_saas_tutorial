@@ -23,7 +23,7 @@
         var owl;
 $(document).ready(function(){
   owl = $('#owl-example').owlCarousel({
-    
+
     loop: true,
     autoplay:true,
     autoplaySpeed: 5000,
