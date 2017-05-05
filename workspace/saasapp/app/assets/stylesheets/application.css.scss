@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 
 // Background Gradient
-.navbar, .home-callout {
+.navbar, .home-callout, .owl-carousel {
   background: #70e1f5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -63,15 +63,13 @@ h1, h2, h3 {
 .home-callout {
   color: black;
   margin-top: -20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 1000px;
 }
 
-body {
-  background: linear-gradient(to right, #ffd194, #70e1f5) fixed;
-}
+
 * {
     margin: 0;
 }
@@ -192,8 +190,8 @@ body {
 
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: .2; animation-timing-function: ease-out; }
-    17% { opacity: .2 }
+    8% { opacity: .3; animation-timing-function: ease-out; }
+    17% { opacity: .3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
@@ -222,4 +220,8 @@ body {
 }
 #hob-head{
   color: Black;
+}
+
+p.thick {
+    font-weight: 900;
 }
