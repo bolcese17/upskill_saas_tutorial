@@ -1,0 +1,1 @@
+["--host=arm64-apple-darwin21.3.0", "--enable-static", "--disable-shared", "--enable-shared=no", "--enable-static=yes", "CC=xcrun clang", "CFLAGS=-fPIC -O2 -fvisibility=hidden", "--prefix=/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1"]

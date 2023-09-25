@@ -1,0 +1,15 @@
+ /opt/homebrew/bin/gmkdir -p '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib'
+ /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c   libsqlite3.la '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib'
+libtool: install: /opt/homebrew/bin/ginstall -c .libs/libsqlite3.lai /Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/libsqlite3.la
+libtool: install: /opt/homebrew/bin/ginstall -c .libs/libsqlite3.a /Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/libsqlite3.a
+libtool: install: chmod 644 /Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/libsqlite3.a
+libtool: install: ranlib /Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/libsqlite3.a
+ /opt/homebrew/bin/gmkdir -p '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/bin'
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c sqlite3 '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/bin'
+libtool: install: /opt/homebrew/bin/ginstall -c sqlite3 /Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/bin/sqlite3
+ /opt/homebrew/bin/gmkdir -p '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/include'
+ /opt/homebrew/bin/ginstall -c -m 644 sqlite3.h sqlite3ext.h '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/include'
+ /opt/homebrew/bin/gmkdir -p '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/share/man/man1'
+ /opt/homebrew/bin/ginstall -c -m 644 sqlite3.1 '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/share/man/man1'
+ /opt/homebrew/bin/gmkdir -p '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/pkgconfig'
+ /opt/homebrew/bin/ginstall -c -m 644 sqlite3.pc '/Users/brendan/Desktop/personal_website/upskill_saas_tutorial/workspace/saasapp/gems/sqlite3-1.6.6/ports/arm64-apple-darwin21.3.0/sqlite3/3.43.1/lib/pkgconfig'
