@@ -5,6 +5,7 @@
     <%= csrf_meta_tags %>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
@@ -29,22 +30,33 @@
         
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Journal Entries", past_work_path %></a></li>
-            <li><%= link_to "Hobbies And Intrests", achievements_path %></li>
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Resume", resume_path %></li>
-            <li><%= link_to "Contact Me", new_contact_path %></li>
+          <!-- Journal Entries are commented out -->
+          <!-- <li><%= link_to "Journal Entries", past_work_path %></a></li> -->
+          <li><%= link_to "Projects", achievements_path, class: "nav-link"  %></li>
+          <!-- <li><%= link_to "About", about_path, class: "nav-link" %></li> -->
+          <li><%= link_to "Resume", resume_path, class: "nav-link" %></li>
+          <li><%= link_to "Contact Me", new_contact_path, class: "nav-link" %></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <%= link_to "https://www.instagram.com/brendan_olcese/" , class: "navbar-brand" do %>
-                  <i class="fa fa-instagram"></i>
-                  <% end %>
-                <%= link_to "https://twitter.com/brandon_olsece?lang=en" , class: "navbar-brand" do %>
-                  <i class="fa fa-twitter"></i>
+                <%= link_to "https://www.linkedin.com/in/brendan-olcese-a51aaa206/" , class: "navbar-brand" do %>
+                  <i class="fa fa-linkedin fa-2xl"></i>
                   <% end %>
                 <%= link_to "https://github.com/bolcese17" , class: "navbar-brand" do %>
-                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github fa-2xl"></i>
                   <% end %>
+
+                <!-- Instagram and twitter are commented out -->
+                <!--
+                <%= link_to "https://www.instagram.com/brendan_olcese/" , class: "navbar-brand" do %>
+                  <i class="fa fa-instagram fa-2xl"></i>
+                  <% end %>
+                <%= link_to "https://twitter.com/brandon_olsece?lang=en" , class: "navbar-brand" do %>
+                  <i class="fa fa-twitter fa-2xl"></i>
+                  <% end %>
+                -->
+
+
+
             </ul>
             
         </div><!-- /.navbar-collapse -->
